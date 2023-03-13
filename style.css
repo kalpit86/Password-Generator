@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    background-color: azure;
+}
+
+.main-box{
+    text-align: center;
+    width: 30%;
+    height: 330px;
+    box-shadow: 10px 10px 5px lightgray;
+    border-radius: 12px;
+    background-color: #635985;
+    color:aliceblue;
+    padding: 30px;
+    position: absolute;
+}
+
+.main-box h1{
+    width: 95%;
+    margin: 0px auto 15px auto;
+    font-size: 45px;
+}
+
+.btn{
+    color:white;
+    background-color: #443C68;
+    border:2px solid white;
+    border-radius: 6px;
+    padding: 1px;
+    margin-top: 15px;
+    position: relative;
+    left: 78px;
+    top: 6px;
+}
+
+#generatePassword{
+   position:static;
+   font-weight: bolder ;
+   font-size: 20px;
+   display: block;
+   width: 65%;
+   margin: 30px auto 40px auto;
+   padding: 10px;
+}
+
+.passBox{
+    display: inline-block;
+    height: fit-content;
+    padding: 3px;
+    width:fit-content;
+    background-color: #443C68;
+    color: white;
+    border: 2px solid white;
+    margin: 0px auto 15px auto;
+}
+
+#password{
+  outline: none;
+  border-style: none;  
+  background-color: #443C68;
+  color: white;
+}
+
+.hidden{
+  display:none;
+}
+
+@media only screen and (max-width: 1285px){
+   .main-box{
+    margin: 20px auto;
+    width: 40%;
+    height: fit-content;
+   }
+}
+
+@media only screen and (max-width: 795px){
+    .main-box{
+     margin: 20px auto;
+     width: 80%;
+     height: fit-content;
+    }
+ }
+
+ @media only screen and (max-width: 480px){
+    .btn{
+        top: 45px;
+        left: -110px;
+    }
+    .main-box{
+        margin: 20px auto;
+        width: 80%;
+        height: fit-content;
+        text-align: center;
+       }
+ } 
