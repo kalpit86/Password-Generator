@@ -1,5 +1,6 @@
 # Password Generator
-This is a simple web-based application that allows users to generate passwords with customizable length and the option to include special characters.
+This is a simple web-based application that allows users to generate passwords with customizable length and the option to include special characters. 
+- Check this live on Github Pages 🚀 : https://kalpit86.github.io/Password-Generator/
 
 ## Table of Contents
 - Getting Started
